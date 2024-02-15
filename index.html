@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costs Manager Client Application</title>
+</head>
+<body>
+<div class="header-container">
+    <h1 class="header">Costs Manager Client Application</h1>
+</div>
+
+<div class="container mt-5 form-container bg-light">
+    <h2 class="form-header">Expense Entry</h2>
+    <form id="costForm">
+        <div class="form-group">
+            <label for="categorySelect">Category</label>
+            <select class="form-control" id="categorySelect">
+                <option>FOOD</option>
+                <option>HEALTH</option>
+                <option>EDUCATION</option>
+                <option>TRAVEL</option>
+                <option>HOUSING</option>
+                <option>OTHER</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="costInput">Cost</label>
+            <input type="text" class="form-control" id="costInput" placeholder="0$">
+        </div>
+        <div class="form-group">
+            <label for="descriptionInput">Description</label>
+            <input type="text" class="form-control" id="descriptionInput" placeholder="Description">
+        </div>
+        <button type="submit" id="submit" class="btn btn-primary btn-lg btn-block mt-3">Submit</button>
+    </form>
+</div>
+
+<div class="container mt-5 bg-secondary">
+    <h2 class="form-header text-white">Costs Report</h2>
+    <div class="select-container mb-3">
+        <div class="me-2">
+            <label for="year">Select Year:</label>
+            <select class="select-input" id="year">
+                <option value="">Select Year</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+            </select>
+        </div>
+        <div>
+            <label for="month">Select Month:</label>
+            <select class="select-input" id="month">
+                <option value="">Select Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-striped" id="table tbody">
+        <thead class="thead-dark">
+        <tr>
+            <th>Category</th>
+            <th>Cost</th>
+            <th>Description</th>
+            <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</div>
+
+<script src="idb.js"></script>
+</body>
+</html>
