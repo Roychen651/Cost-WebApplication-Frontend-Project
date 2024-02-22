@@ -30,8 +30,8 @@ You can access a live demo of the Cost Manager Web Application [here](#).
 
 To run this project locally, follow these steps:
 
-1. Clone the repository to your local machine using the following command:
-https://github.com/Roychen651/Cost-WebApplication-Frontend-Project.git
+1. Clone the repository to your local machine using the following command:<br/>
+https://github.com/Roychen651/Cost-WebApplication-Frontend-Project.git <br/>
 2. Open the project directory in your code editor.
 3. Open the `index.html` file in a web browser to launch the application.
 
