@@ -23,8 +23,9 @@ This web application provides a user-friendly interface to add costs under diffe
 - **IndexedDB Integration**: The application utilizes IndexedDB for efficient client-side storage, ensuring data persistence and offline access.<br/>
 
 ## 🚀 Demo
+https://cost-webapplication-frontend.onrender.com/
 
-You can access a live demo of the Cost Manager Web Application [here](https://cost-webapplication-frontend-project.onrender.com).
+You can access a live demo of the Cost Manager Web Application [here](https://cost-webapplication-frontend.onrender.com/).
 
 ## 🛠️ Installation
 
